@@ -31,7 +31,7 @@ This setup can be changed to meet you Pi Setup but make sure you put the right p
 Data regarding the LCD pinout is easily available.
 
 writeFullLine(message, line)
-this will take any string, and fill the line(row) with training " " to fill it out.  
+this will take any string, and fill the line(row) with trailing " " to fill it out.  
 Any characters past the first 16 will not show up. Remember rows are either 0 or 1.
 
 write(message, row, col)
